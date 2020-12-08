@@ -1,3 +1,11 @@
+# Augpier
+
+- We asked insight_worker to send data to "http://bears.sociallycompute.io:5105/storeZapier"
+- When "http://bears.sociallycompute.io:5105/storeZapier" receives data, it stores them in a list. We created an empty list in server.py. 
+- We also created a route for Zapier to get data, which is "http://bears.sociallycompute.io:5105/zapier". When Zapier send request to this route, it dumps the data of the aforementioned list.
+- After Zapier receives data, it triggers actions of another app, such as sending an email to users' gmail. 
+
+
 # Augur
 
 branch | status
