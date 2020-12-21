@@ -1,4 +1,4 @@
-# Augpier
+# Augier
 
 - We asked insight_worker to send data to "http://bears.sociallycompute.io:5105/storeZapier"
 - When "http://bears.sociallycompute.io:5105/storeZapier" receives data, it stores them in a list. We created an empty list in server.py. 
