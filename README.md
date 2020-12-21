@@ -6,10 +6,69 @@
 - After Zapier receives data, it triggers actions of another app, such as sending an email to users' gmail. 
 
 ## Examples of integrating Augur into Zapier.
+### Create Authentication
+
 - Create Authentication
 ![Authentication1](docs/Augier_screenshots/1auth.png)
+
+- Include an API url (Zapier can get data from this API)
 ![Authentication2](docs/Augier_screenshots/2auth.png)
+
+- Test it
 ![Authentication3](docs/Augier_screenshots/3auth.png)
+
+### Create an Augur Trigger
+
+- Name the trigger
+![trigger4](docs/Augier_screenshots/4trigger.png)
+
+- Include an API url
+![trigger5](docs/Augier_screenshots/5trigger.png)
+
+- Test it
+![trigger6](docs/Augier_screenshots/6trigger.png)
+
+- Define output
+![trigger7](docs/Augier_screenshots/7trigger.png)
+
+### Zap the Augur with other apps
+
+- Choose a trigger
+![zap8](docs/Augier_screenshots/8zap.png)
+
+- Choose an action
+![zap9](docs/Augier_screenshots/9zap.png)
+
+- Let's try Gmail
+![zap10](docs/Augier_screenshots/10zap.png)
+
+- Choose a Gmail account, and send a mail from Gmail to another email address
+![zap11](docs/Augier_screenshots/11zap.png)
+
+- Choose Augur data to send
+![zap12](docs/Augier_screenshots/12zap.png)
+
+- Test it
+![zap13](docs/Augier_screenshots/13zap.png)
+
+- Check email inbox. Received!
+![zap14](docs/Augier_screenshots/14zap.png)
+
+- Another example. Zap it to Google Doc
+![zap15](docs/Augier_screenshots/15zap.png)
+
+- Append Augur data to an existing Google Doc file
+![zap16](docs/Augier_screenshots/16zap.png)
+
+- Test it
+![zap17](docs/Augier_screenshots/17zap.png)
+
+- Succeed!
+![zap18](docs/Augier_screenshots/18zap.png)
+
+Once you integrate Augur into Zapier, you can zap it with different apps. 
+
+
 
 # Augur
 
