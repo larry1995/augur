@@ -2,9 +2,14 @@
 
 - We asked insight_worker to send data to "http://bears.sociallycompute.io:5105/storeZapier"
 - When "http://bears.sociallycompute.io:5105/storeZapier" receives data, it stores them in a list. We created an empty list in server.py. 
-- We also created a route for Zapier to get data, which is "http://bears.sociallycompute.io:5105/zapier". When Zapier send request to this route, it dumps the data of the aforementioned list.
+- We also created an API for Zapier to get data, which is "http://bears.sociallycompute.io:5105/zapier". When Zapier send request to this route, it dumps the data of the aforementioned list.
 - After Zapier receives data, it triggers actions of another app, such as sending an email to users' gmail. 
 
+## Examples of integrating Augur into Zapier.
+- Create Authentication
+![Authentication1](docs/Augier_screenshots/1auth.png)
+![Authentication2](docs/Augier_screenshots/2auth.png)
+![Authentication3](docs/Augier_screenshots/3auth.png)
 
 # Augur
 
